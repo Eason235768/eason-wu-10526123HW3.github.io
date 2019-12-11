@@ -1,0 +1,317 @@
+* {
+    box-sizing: border-box;
+    position: relative;
+    letter-spacing: 1px;
+    font-family: Microsoft JhengHei;
+}
+
+/* html,
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+    color: #666;
+} */
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+.bg {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.bg .container {
+    display: flex;
+    width: 90%;
+    height: 92%;
+    padding: 30px;
+    padding-bottom: 80px;
+    border: 5px solid #519f49;
+    overflow: hidden;
+}
+
+.bg .container .right_block,
+.bg .container .left_block {
+    height: 100%;
+    width: 49%;
+}
+
+.bg .container .right_block {
+    border-right: 1px solid #888;
+}
+
+.bg .container .right_block .name {
+    font-size: 30px;
+    margin-left: 20px;
+    letter-spacing: 3px;
+}
+
+.bg .container .right_block .info {
+    margin-bottom: 50px;
+}
+
+.bg .container .right_block .info h6 {
+    display: inline-block;
+    padding: 8px 0px;
+    margin-bottom: 0px;
+    border-bottom: 3px solid #519f49;
+}
+
+.bg .container .right_block .info .block {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: 2px solid #519f49;
+}
+
+.bg .container .right_block .skill h4,
+.bg .container .right_block .skill h5 {
+    margin: 5px;
+}
+
+.bg .container .right_block .skill .skill_container {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.bg .container .right_block .skill .skill_container .skill_right,
+.bg .container .right_block .skill .skill_container .skill_left {
+    width: 45%;
+    height: 100%;
+    color: #519f49;
+}
+
+.bg .container .right_block .skill .skill_container .skill_right .block_container,
+.bg .container .right_block .skill .skill_container .skill_left .block_container {
+    margin: 10px 0;
+    margin-bottom: 14px;
+    width: 100%;
+    height: 10px;
+    border: 1.5px solid #519f49;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.bg .container .right_block .skill .skill_container .skill_right .block_container:nth-child(1) .fill,
+.bg .container .right_block .skill .skill_container .skill_left .block_container:nth-child(1) .fill {
+    width: 85%;
+}
+
+.bg .container .right_block .skill .skill_container .skill_right .block_container:nth-child(2) .fill,
+.bg .container .right_block .skill .skill_container .skill_left .block_container:nth-child(2) .fill {
+    width: 70%;
+}
+
+.bg .container .right_block .skill .skill_container .skill_right .block_container:nth-child(3) .fill,
+.bg .container .right_block .skill .skill_container .skill_left .block_container:nth-child(3) .fill {
+    width: 65%;
+}
+
+.bg .container .right_block .skill .skill_container .skill_right .block_container:nth-child(4) .fill,
+.bg .container .right_block .skill .skill_container .skill_left .block_container:nth-child(4) .fill {
+    width: 35%;
+}
+
+.bg .container .right_block .skill .skill_container .skill_right .block_container:nth-child(5) .fill,
+.bg .container .right_block .skill .skill_container .skill_left .block_container:nth-child(5) .fill {
+    width: 75%;
+}
+
+.bg .container .right_block .skill .skill_container .skill_right .block_container .fill,
+.bg .container .right_block .skill .skill_container .skill_left .block_container .fill {
+    height: 100%;
+    background-color: #519f49;
+}
+
+.bg .container .right_block .skill .skill_container .item svg circle:nth-child(1) {
+    fill: none;
+    stroke: #519f49;
+    stroke-width: 10px;
+    stroke-dasharray: 130;
+    stroke-dashoffset: 30;
+    transform: translate(5px, 5px);
+}
+
+.bg .container .right_block .skill .skill_container .item svg circle:nth-child(2) {
+    fill: none;
+    stroke: #519f49;
+    stroke-width: 10px;
+    stroke-dasharray: 130;
+    stroke-dashoffset: 0;
+    transform: translate(5px, 5px);
+}
+
+.bg .container .right_block .skill .skill_container .item svg circle:nth-child(3) {
+    fill: none;
+    stroke: #519f49;
+    stroke-width: 10px;
+    stroke-dasharray: 130;
+    stroke-dashoffset: 50;
+    transform: translate(5px, 5px);
+}
+
+.bg .container .right_block .skill .skill_container .item svg circle:nth-child(4) {
+    fill: none;
+    stroke: #519f49;
+    stroke-width: 10px;
+    stroke-dasharray: 130;
+    stroke-dashoffset: 65;
+    transform: translate(5px, 5px);
+}
+
+.bg .container .right_block .skill .skill_container .item svg circle:nth-child(5) {
+    fill: none;
+    stroke: #519f49;
+    stroke-width: 10px;
+    stroke-dasharray: 130;
+    stroke-dashoffset: 40;
+    transform: translate(5px, 5px);
+}
+
+.bg .container .right_block .skill .skill_container .item svg circle:nth-child(6) {
+    fill: none;
+    stroke: #519f49;
+    stroke-width: 10px;
+    stroke-dasharray: 130;
+    stroke-dashoffset: 50;
+    transform: translate(5px, 5px);
+}
+
+.bg .container .right_block .skill .skill_container .item p {
+    position: absolute;
+    font-size: 12px;
+}
+
+.bg .container .right_block .skill .skill_container .item .text1 {
+    top: 50px;
+    left: 5px;
+}
+
+.bg .container .right_block .skill .skill_container .item .text2 {
+    top: 50px;
+    left: 80px;
+}
+
+.bg .container .right_block .skill .skill_container .item .text3 {
+    top: 50px;
+    left: 165px;
+}
+
+.bg .container .right_block .skill .skill_container .item .text4 {
+    top: 140px;
+    left: 10px;
+}
+
+.bg .container .right_block .skill .skill_container .item .text5 {
+    top: 140px;
+    left: 95px;
+}
+
+.bg .container .right_block .skill .skill_container .item .text6 {
+    top: 140px;
+    left: 145px;
+}
+
+.left_block {
+    padding-left: 20px;
+}
+
+.shape {
+    display: block;
+    position: absolute;
+    right: 0px;
+    height: 100px;
+    width: 200px;
+    background: linear-gradient(90deg, #283c86 0%, #45a247 100%);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.left_block .works {
+    margin-top: 150px;
+}
+
+.left_block .works h4,
+.left_block .works h5 {
+    margin: 5px;
+}
+
+.left_block .works .works_containter .works_block {
+    display: flex;
+    margin: 10px 0;
+}
+
+.left_block .works .works_containter .works_block .works_info {
+    border-left: 4px solid #519f49;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+.left_block .works .works_containter .works_block .works_info>h5 {
+    display: block;
+}
+
+.contests {
+    margin-top: 50px;
+}
+
+.contests h4,
+.contests h5 {
+    margin: 5px;
+}
+
+.contests h6,
+.contests p {
+    margin-left: 10px;
+}
+.pic {
+    display: flex;
+}
+
+.pic > .img {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pic > .img1 {
+    background-image: url("img/1.jpg");
+}
+.pic > .img2 {
+    background-image: url("img/2.jpg");
+}
+.pic > .img3 {
+    background-image: url("img/3.jpg");
+}
+.pic > .img4 {
+    background-image: url("img/4.jpg");
+}
+.pic > .img5 {
+    background-image: url("img/5.jpg");
+}
+.pic > .img6 {
+    background-image: url("img/6.jpg");
+}
+
+.link {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+i {
+    margin: 0 10px;
+}
+
